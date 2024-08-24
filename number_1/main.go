@@ -50,6 +50,6 @@ func ValidateStringInput(n int, stringsList []string) string {
 	if maxOccurrences > 1 {
 		return fmt.Sprintf("%v", checked[maxString])
 	}
-	fmt.Println("Tes")
+
 	return "false"
 }
